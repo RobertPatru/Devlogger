@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-log.component.css']
 })
 export class FormLogComponent implements OnInit {
+   text: string = "";
 
   constructor() { }
 
