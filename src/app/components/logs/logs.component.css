@@ -5,3 +5,7 @@
 .log-date {
    color: #777;
 }
+
+i:hover {
+   cursor: pointer;
+}
