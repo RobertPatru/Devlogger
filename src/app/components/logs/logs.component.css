@@ -9,3 +9,11 @@
 i:hover {
    cursor: pointer;
 }
+
+.selected {
+   font-weight: bold;
+}
+
+.not-selected {
+   font-weight: 400;
+}

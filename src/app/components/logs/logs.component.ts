@@ -10,6 +10,7 @@ import { LogService } from 'src/app/services/log.service';
 })
 export class LogsComponent implements OnInit {
    logs: Log[];
+   isSelected: boolean = false;
 
    constructor(private logService: LogService) {
       this.logs = [];
@@ -23,6 +24,8 @@ export class LogsComponent implements OnInit {
 
    onSelect(log: Log) {
       this.logService.setFormLog(log);
+      this.isSelected = true;
+      console.log(this.isSelected);
    }
 
    onDelete(log: Log) {
