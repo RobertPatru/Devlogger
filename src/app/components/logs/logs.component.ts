@@ -12,6 +12,7 @@ export class LogsComponent implements OnInit {
    logs: Log[];
    isSelected: boolean = false;
 
+
    constructor(private logService: LogService) {
       this.logs = [];
    }
